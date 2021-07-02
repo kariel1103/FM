@@ -1,0 +1,126 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+body {padding-top: 0px;}
+#color{background-color: #adc4bc!important;}
+
+.navbar-default { background-color: #c1df16; }
+
+header {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+header div .first-page-font {
+    /* font-family: 'Yeon Sung', cursive; */
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Song Myung', serif;
+    font-size: 50px;
+}
+section {
+    padding-top : 30px;
+}
+section .Info-headment{
+    font-size: 60px;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Song Myung', serif;
+}
+section .Info-items{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+section .Info-title{
+    font-size: 40px;
+}
+section .Info-item{
+    padding-bottom: 60px;
+}
+section .secondfont{
+    font-family: 'Song Myung', serif;
+    font-size: 30px;
+}
+
+/* img css */
+.img-fluid {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+#imoticon{
+    position: relative; top: 80px;
+}
+
+
+
+/* 기본적인 css */
+img {
+    border: 0 none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* 맨아래 footer?*/
+.main_cont .link_newsfeed {
+    display: block;
+    position: relative;
+}
+.main_service {
+    overflow: hidden;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding-left : 20px;
+    padding-right: 20px;
+    padding: 76px 60px 0;
+}
+.service_info {
+    padding: 50px 15px 45px;
+    border-top: 1px solid #e6e6e6;
+}
+.service_info .img_thumb {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+
+
+footer{
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+
+
+/* search.html */
+.check_symptom{
+    font-size: 20px;
+    font-family: 'Song Myung', serif;
+}
+.check_font{
+    font-family: 'Song Myung', serif;
+}
+
+/* search2.html */
+.search2_font{
+    font-family: 'Song Myung', serif;
+}
+
+#sch{
+    position: absolute; margin: 20px; top: 250px; left: 350px;
+}
